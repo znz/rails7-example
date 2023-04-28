@@ -15,6 +15,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "bundle install && rake db:setup",
+	"postCreateCommand": "bundle install",
 
 	// Configure tool-specific properties.
 	"customizations": {
