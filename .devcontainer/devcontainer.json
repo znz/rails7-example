@@ -21,7 +21,8 @@
     "vscode": {
       "extensions": [
         "editorconfig.editorconfig",
-        "koichisasada.vscode-rdbg"
+        "koichisasada.vscode-rdbg",
+        "hediet.debug-visualizer"
       ]
     }
   }
