@@ -8,12 +8,12 @@ permissions:
   contents: read
 
 jobs:
-  permissions:
-    contents: write # to create branch (peter-evans/create-pull-request)
-    pull-requests: write # to create a PR (peter-evans/create-pull-request)
-
   test:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # to create branch (peter-evans/create-pull-request)
+      pull-requests: write # to create a PR (peter-evans/create-pull-request)
 
     steps:
     - uses: actions/checkout@v4
