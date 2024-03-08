@@ -9,4 +9,5 @@ require:
 AllCops:
   Exclude:
     - db/schema.rb
+    - vendor/**/*
   NewCops: enable
