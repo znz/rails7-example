@@ -24,7 +24,7 @@ jobs:
     - name: Update rubocop gems
       run: |
         set -euxo pipefail
-        bundle config --delete deployment # automatically set in ruby/setup-ruby
+        bundle config unset deployment # automatically set in ruby/setup-ruby
         bundle update $(bundle list --name-only | grep rubocop)
         git status
         git diff
