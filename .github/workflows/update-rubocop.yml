@@ -14,6 +14,7 @@ jobs:
     permissions:
       contents: write # to create branch (peter-evans/create-pull-request)
       pull-requests: write # to create a PR (peter-evans/create-pull-request)
+      # Require to check `Allow GitHub Actions to create and approve pull requests` at github.com/OWNER/REPO/settings/actions
 
     steps:
     - uses: actions/checkout@v4
